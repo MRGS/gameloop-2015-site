@@ -1,17 +1,121 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="en-CA">
 <head>
+	<title>Game Loop Montréal</title>
+	
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>A Web Page</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Droid+Sans|Roboto' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<!--[if lt IE 8]>
 	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
-	<p>Hello hello.</p>
+	<header>
+		<div id="menu">
+			<ul>
+				<li><a href="#about">About / À propos</a></li>
+				<li>■ <a href="#registration">Register / Inscription</a></li>
+				<li>■ <a href="#contact">Contact / Contacter</a></li>
+				<li>■ <a href="#partners">Partners / Partenaires</a></li>
+			</ul>
+		</div>
+		
+		<div id="logo"><img src="img/logo.png"></div>
+		
+		<div id="details">
+			<div><img src="img/icon-cal.png"/> 02.05.2015</div>
+			<div><img src="img/icon-loc.png"/> Centre LaJeunesse</div>
+			<div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.4721232542674!2d-73.61807386508181!3d45.540827289917736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9191670d085ff%3A0x67ca391d15e05a91!2sCentre+De+Loisirs+Communautaires+Lajeunesse!5e0!3m2!1sen!2sca!4v1427678557532" width="100%" height="210" frameborder="0" style="border:0"></iframe></div>
+		</div>
+		
+		<br style="clear:left"/><br/><br/>
+		<div class="hr" style="background-image:url('img/hr-blue.png');"></div>
+	</header>
+	
+	<section id="byline">
+		<div class="col">
+			<span class="byline">
+				<p>We're a unique <strong>unconference</strong> open to all game developers, journalists, critics, academics, artists, & students. </p>
+				<p>Anyone involved in the culture of games is invited to share ideas and participate in discussions surrounding the discourse, practices, and development of games. </p>
+			</span>
+		</div>
+		
+		<div class="col">
+			<span class="byline">
+				<p>Nous sommes une “<strong>anti-conférence</strong>” ouverte à tous développeurs, critiques, universitaires, artistes et étudiants oeuvrant dans le monde des jeux.</p>
+				<p>Toutes les personnes impliquées dans la culture des jeux sont  invitées à venir partager leurs  idées et à participer aux vastes discours et pratiques reliés à la création des jeux.</p>
+			</span>
+		</div>
+	</section>
+		
+	<section id="pitch">
+		<div class="col">
+			<h2 class="content-pitch"><img src="img/icon-doc.png"/> Pitch a session</h2>
+			<p>The beauty of GameLoop: the attendees make the event! We need all attendees to pitch sessions! Held in the past in the Boston and Philadelphia areas, GameLoop sessions have been about formalism, narrative design, dating simulators, monetization ethics, distributed version control, voice acting, mental health and self care, iPhone shaders, independent marketing, funding, publishing, Unity development, prototyping, alternative games, multiplayer, concept art, and much, much more.</p>
+			<p>At the start of the day, attendees propose session topics in the format of  group roundtable discussions, talks, or even workshops. All session topics are put up on a board. Every attendee will get stickers to vote on the sessions they'd like to see appear throughout the day. Right after, with a combination of popular vote and need to balance out the schedule, the organizers adopt each session and the agenda for the day is created!</p>
+			<p>Don't worry about it if you've never given a talk before. If you really want to talk about something, you can pitch the session and if enough people want to attend, everyone else can talk about it!</p>
+		</div>
+			
+		<div class="col">
+			<h2 class="content-pitch"><img src="img/icon-doc.png"/> Proposer une session!</h2>
+			<p>La beauté de GameLoop: les participants créent l’évènement eux-même! Toutes les personnes sont invitées à proposer divers sujets de discussions liés au monde des jeux . Lors d’évènements semblables par le passé à Boston et Philadelphie, les sessions sont eux plusieurs divers sujets tels que le formalisme, ke design narratif, la monétisation éthique, la romance entre npcs, le prototypage rapide, la santé mentale, les méchaniques de monétisation, le marketing indépendent, la direction audio, et plus encore.</p>
+			<p>Au début de la journée, tous les participants sont invités à proposer divers sujets de discussions liés au monde des jeux . Toutes les sessions sont notées au fur à mesure et affichées sur un tableau. Par après, toutes les sessions proposés sont choisis par vote populaire, fait avec de jolies petits collants. Selon les choix des participants et les sujets intéressants, les organisateurs créent l’agenda officiel de la journée!</p>
+			<p>N’ayez pas peur si vous n’avez jamais présenter une session ou fait un discours en public! Si vous voulez réellement discuter d’un sujet: proposer une session. Si assez de gens y participent, le groupe entier pourra en discuter avec vous!</p>
+		</div>
+	</section>
+	
+	<section id="session">
+		<div class="col">
+			<h2 class="content-session"><img src="img/icon-talk.png"> Participate in a session</h2>
+			<p>We have the very  beautiful Centre Lajeunesse at our disposal. If you are ever tired of sessions, we will have communal spaces that you can make your own to spend some quality time with your fellow participants, talk, share or even show off a demo of your game!</p>
+		</div>
+		
+		<div class="col">
+			<h2 class="content-session"><img src="img/icon-talk.png"> Participez! Discutez!</h2>
+			<p>Tous les participants peuvent aller à n’importe quelles session et écouter. Mais… à GameLoop nous vous encourageons à parler: poser des questions et suggérer des réponses. Nous voulons créer un dialogue. Lorsque vous allez à une session: faites vous entendre! Nous voulons savoir à propos de vous et vos expériences!</p>
+		</div>
+	</section>
+		
+	
+	<section id="hangout">
+		<div class="col">
+			<h2 class="content-talk"><img src="img/icon-tea.png"> Chat, hangout, talk!</h2>
+			<p>We have the very  beautiful Centre Lajeunesse at our disposal. If you are ever tired of sessions, we will have communal spaces that you can make your own to spend some quality time with your fellow participants, talk, share or even show off a demo of your game!</p>		
+		</div>
+		
+		<div class="col">
+			<h2 class="content-talk"><img src="img/icon-tea.png"> Flâner, jaser, amusez-vous! </h2>
+			<p>Notre évènement se tiendra au chaleureux Centre Lajeunesse. Si vous êtes fatigués ou voulez faire autre chose que d’aller aux sessions, nous aurons des espaces communautaires pour vous permettre de relaxer, parler à d’autres participants, ou même présenter un de vos jeux ou peut importe ce qui vous tente.</p>
+		</div>
+	
+		<div class="hr" style="background-image:url('img/hr.png');"></div>
+	</section>
+	
+	<footer>
+		<h3>In collaboration with / En collaboration avec</h3>
+		<span class="mrgs">
+			<a href="http://mrgs.ca" target="_blank"><img src="img/logo-mrgs.png"/> <img src="img/logo-mrgswords.png"/></a>
+		</span>
+		
+		
+		<h3><br/><br/>Partners / Partenaires</h3>
+		<span class="gold">
+			<a href="http://www.autodesk.ca/" target="_blank"><img src="img/logo-autodesk.png"></a>
+		</span>
+		
+		<span class="bronze">
+			<a href="http://tag.hexagram.ca" target="_blank"><img src="img/logo-tag.png"></a>
+			<a href="http://unity3d.com" target="_blank"><img src="img/logo-unity.png"></a>
+			<a href="http://www.igdamontreal.ca" target="_blank"><img src="img/logo-igda.png"></a>
+			<a href="http://www.mlabgamestudies.com/" target="_blank"><img src="img/logo-mlab.png"></a>
+		</span>
+		
+	</footer>
 </body>
 </html>
