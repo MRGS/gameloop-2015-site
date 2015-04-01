@@ -8,6 +8,18 @@ body {
 	font-family:'Source sans pro', helvetica, arial, sans-serif;
 	font-size:1.2em;
 	color:#c0c0c0;}
+	
+a {
+	color:#41fff8;
+	text-decoration:none;}
+	
+p a:hover, section a:hover {
+	color:#000;
+	background:#41fff8;
+	border-bottom:3px solid #41fff8}
+	
+p a, section a {
+	border-bottom:1px solid #444}
 
 
 
@@ -16,11 +28,13 @@ header {
 	background:#0b5e9b url('img/bg-gradient.png') repeat-x;
 	min-height:500px;
 	margin-bottom:50px}
+
+div#banner {
+	background:url('img/bg-stars.png') repeat;}
 	
 div#logo {
 	padding:5%;
 	text-align:center;
-	background:url('img/bg-stars.png') repeat-x;
 	float:left;}
 	
 div#details {
@@ -38,7 +52,7 @@ div#details div {
 	font-size:1.35em;
 	font-weight:bold;}
 	
-div#details img, h2 img, footer img {
+div#details img, h2 img, footer img, p img {
 	vertical-align:middle}
 	
 	
@@ -54,7 +68,7 @@ div#menu li {
 	
 div#menu a {
 	color:#fff;
-	font-size:0.7em;
+	font-size:0.8em;
 	text-transform:uppercase;
 	text-decoration:none;
 	padding:0 15px}
@@ -84,13 +98,12 @@ div.col {
 	vertical-align:top;}	
 
 .byline {
+	color:#fff;
 	font-family:georgia;
 	font-style:italic;}
 	
 h2 {
-	text-transform:uppercase;}
-
-.content-session, .content-talk, .content-pitch {
+	text-transform:uppercase;
 	margin-bottom:15px;}
 		
 .content-session {
@@ -101,6 +114,27 @@ h2 {
 	
 .content-talk {
 	color:#08bafe}
+	
+/* -- contact section */
+section#menu-register {
+	background:#32323e}
+
+span.organizer img {
+	width:80px;
+	height:80px;
+	border-radius:40px;
+	float:left;
+	margin:15px 10px}
+	
+span.organizer strong {
+	color:#fff;
+	display:block;
+	padding-top:15px}
+
+span.organizer {
+	display:block;
+	clear:left}
+	
 	
 	
 /* --- FOOTER ------------------------------------------------------- */
@@ -124,10 +158,14 @@ footer span {
 footer span img {
 	padding:10px}
 
-footer span.mrgs img {
+.mrgs img {
 	height:150px}
 	
-footer span.gold {}
+.gold img {
+	height:80px;}
 
-footer span.bronze img {
-	height:60px}
+.silver img {
+	height:80px;}
+
+.bronze img {
+	height:45px}
