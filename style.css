@@ -27,7 +27,7 @@ p a, section a {
 header {
 	background:#0b5e9b url('img/bg-gradient.png') repeat-x;
 	min-height:500px;
-	margin-bottom:50px}
+	margin-bottom:50px;}
 
 div#banner {
 	background:url('img/bg-stars.png') repeat;}
@@ -42,7 +42,8 @@ div#details {
 	position:relative;
 	top:70px;
 	left:-100px;
-	width:300px;}
+	width:300px;
+	color:#fff;}
 	
 div#details div {
 	border-radius:5px;
