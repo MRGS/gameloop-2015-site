@@ -58,9 +58,6 @@ div#details div {
 div#details img, h2 img, footer img, p img {
 	vertical-align:middle}
 	
-#mc_embed_signup {
-	max-width:800px;}
-	
 #mc_embed_signup input {
 	font-size:1em;
 	font-family:'Source sans pro', helvetica, arial, sans-serif;}
@@ -70,10 +67,12 @@ div#details img, h2 img, footer img, p img {
 	border-radius:3px;
 	margin:0 10px;
 	width:400px !important;
+	max-width:400px;
 	background:#222;
 	border:1px solid #4e8381 !important;
 	color:#41fff8;
-	margin-bottom:10px;}
+	margin-bottom:10px;
+	display:inline}
 	
 #mc_embed_signup input[type=submit] {
 	padding:5px 10px;
