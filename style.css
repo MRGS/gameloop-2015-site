@@ -58,6 +58,9 @@ div#details div {
 div#details img, h2 img, footer img, p img {
 	vertical-align:middle}
 	
+#mc_embed_signup {
+	max-width:600px;}
+	
 #mc_embed_signup input {
 	font-size:1em;
 	font-family:'Source sans pro', helvetica, arial, sans-serif;}
