@@ -58,8 +58,6 @@ div#details div {
 div#details img, h2 img, footer img, p img {
 	vertical-align:middle}
 	
-#mc_embed_signup {
-	max-width:600px;}
 	
 #mc_embed_signup input {
 	font-size:1em;
@@ -90,7 +88,6 @@ div#details img, h2 img, footer img, p img {
 #mc_embed_signup input[type=submit]:hover {
 	cursor:pointer;
 	background:#2fd8d2}
-	
 	
 #mc_embed_signup label {
 	color:#fff;
