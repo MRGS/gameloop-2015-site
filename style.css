@@ -69,7 +69,7 @@ div#details img, h2 img, footer img, p img {
 #mc_embed_signup input[type=email] {
 	padding:5px;
 	border-radius:3px;
-	margin:0 10px;
+	margin:10px 0;
 	width:400px !important;
 	background:#222;
 	border:1px solid #4e8381 !important;
@@ -85,16 +85,15 @@ div#details img, h2 img, footer img, p img {
 	text-transform:uppercase;
 	font-weight:bold;
 	text-decoration:underline;
-	color:#000;
-	position:relative;
-	left:-48px}
+	color:#000;}
 	
 #mc_embed_signup input[type=submit]:hover {
 	cursor:pointer;
 	background:#2fd8d2}
 	
 #mc_embed_signup label {
-	color:#fff;
+	text-transform:uppercase;
+	font-size:0.8em;
 	font-weight:bold;}
 	
 	
