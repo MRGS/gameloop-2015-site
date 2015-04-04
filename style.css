@@ -171,9 +171,10 @@ span.organizer {
 	box-shadow: 0 3px 0 #222;
 	text-transform:uppercase;
 	vertical-align:middle;
-	height:100px;
+	text-align:center;	
+	height:40px;
 	width:50px;
-	color:#000
+	color:#000;
 	font-size:14pt;
 	font-weight:bold;}
 	
