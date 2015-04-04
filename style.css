@@ -176,7 +176,9 @@ span.organizer {
 	padding:0 10px;
 	height:40px;
 	font-size:14pt;
-	font-weight:bold;}
+	font-weight:bold;
+	position:relative;
+	top:-10px;}
 	
 #mc_embed_signup input[type=submit]:hover {
 	cursor:pointer;
