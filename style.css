@@ -166,13 +166,14 @@ span.organizer {
 	display:inline}
 	
 #mc_embed_signup input[type=submit] {
-	padding:5px 10px;
+	border-radius:5px;
 	background:#41fff8;
 	box-shadow: 0 3px 0 #222;
-	border-radius:5px;
 	text-transform:uppercase;
-	color:#000;
 	vertical-align:middle;
+	height:100px;
+	width:50px;
+	color:#000
 	font-size:14pt;
 	font-weight:bold;}
 	
@@ -193,7 +194,8 @@ h3 {
 	color:#000;
 	text-align:center;
 	text-transform:uppercase;
-	padding:20px 0}
+	padding:20px 0;
+	font-weight:normal;}
 	
 footer {
 	text-align:center;
