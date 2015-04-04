@@ -57,7 +57,8 @@ div#details div {
 	padding:10px;
 	background:#000;
 	font-size:1.35em;
-	font-weight:bold;}
+	font-weight:bold;
+	text-align:left;}
 	
 div#details img, h2 img, footer img, p img {
 	vertical-align:middle}	
