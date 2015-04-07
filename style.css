@@ -37,7 +37,7 @@ div#banner {
 	background:url('img/bg-stars.png') repeat;}
 	
 div#banner-centering {
-	width:1150px;
+	width:100%;
 	position:relative;
 	margin:auto;}
 	
@@ -117,7 +117,8 @@ h2 {
 	color:#fff;
 	text-transform:uppercase;
 	margin-bottom:15px;
-	font-weight:normal;}
+	font-weight:bold;
+	font-size:1.25em;}
 		
 .content-session {
 	color:#b56efe;}
