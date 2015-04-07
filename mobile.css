@@ -51,7 +51,8 @@ div#details img, h2 img, footer img, p img {
 div#menu {
 	background:#000;
 	padding:15px 0;
-	text-align:center;}
+	text-align:center;
+	display:none;}
 	
 div#menu li {
 	color:#3d3d3d;
@@ -143,7 +144,7 @@ span.organizer {
 	padding:5px;
 	border-radius:3px;
 	margin:10px 0;
-	width:400px !important;
+	width:350px !important;
 	background:#222;
 	border:1px solid #4e8381 !important;
 	color:#41fff8;
