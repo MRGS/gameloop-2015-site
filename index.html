@@ -6,20 +6,22 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 	
 	<meta property="og:title" content="GameLoop Montréal"/>
 	<meta property="og:image" content="http://gameloop.mrgs.ca/img/og-facebook.png"/>
 
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<!--<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile-device.css" />-->
+	<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="mobile.css" media="handheld"/>
+	
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Droid+Sans|Roboto' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<!--[if lt IE 8]>
 	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
+	
 	<header>
 		<div id="menu">
 			<ul>
@@ -47,23 +49,21 @@
 		<div class="hr" style="background-image:url('img/hr-blue.png');"></div>
 	</header>
 	
-	<section id="byline menu-about"><a name="menu-about"></a>
-		<div class="col">
-			<span class="byline">
-				<p>We're a unique <strong>unconference</strong> open to all game developers, journalists, critics, academics, artists, & students. </p>
-				<p>Anyone involved in the culture of games is invited to share ideas and participate in discussions surrounding the discourse, practices, and development of games. </p>
-			</span>
+	<section id="byline menu-about" class="content">
+		<a name="menu-about"></a>
+		
+		<div class="col byline">
+			<p>We're a unique <strong>unconference</strong> open to all game developers, journalists, critics, academics, artists, & students. </p>
+			<p>Anyone involved in the culture of games is invited to share ideas and participate in discussions surrounding the discourse, practices, and development of games. </p>
 		</div>
 		
-		<div class="col">
-			<span class="byline">
-				<p>Nous sommes une “<strong>anti-conférence</strong>” ouverte à tous développeurs, critiques, universitaires, artistes et étudiants oeuvrant dans le monde des jeux.</p>
-				<p>Toutes les personnes impliquées dans la culture des jeux sont  invitées à venir partager leurs  idées et à participer aux vastes discours et pratiques reliés à la création des jeux.</p>
-			</span>
+		<div class="col byline">
+			<p>Nous sommes une “<strong>anti-conférence</strong>” ouverte à tous développeurs, critiques, universitaires, artistes et étudiants oeuvrant dans le monde des jeux.</p>
+			<p>Toutes les personnes impliquées dans la culture des jeux sont  invitées à venir partager leurs  idées et à participer aux vastes discours et pratiques reliés à la création des jeux.</p>
 		</div>
 	</section>
 		
-	<section id="pitch">
+	<section id="pitch" class="content">
 		<div class="col">
 			<h2 class="content-pitch"><img src="img/icon-doc.png"/> Pitch a session</h2>
 			<p>The beauty of GameLoop: the attendees make the event! We need all attendees to pitch sessions! Held in the past in the Boston and Philadelphia areas, GameLoop sessions have been about formalism, narrative design, dating simulators, monetization ethics, distributed version control, voice acting, mental health and self care, iPhone shaders, independent marketing, funding, publishing, Unity development, prototyping, alternative games, multiplayer, concept art, and much, much more.</p>
@@ -79,7 +79,7 @@
 		</div>
 	</section>
 	
-	<section id="session">
+	<section id="session" class="content">
 		<div class="col">
 			<h2 class="content-session"><img src="img/icon-talk.png"> Participate in a session</h2>
 			<p>All attendees can attend any session and just listen. But... at GameLoop we encourage you to speak up: ask questions and propose answers. We care about fostering dialogue. When you go to a session: talk! We want to hear from you and your experience!</p>
@@ -92,7 +92,7 @@
 	</section>
 		
 	
-	<section id="hangout">
+	<section id="hangout" class="content">
 		<div class="col">
 			<h2 class="content-talk"><img src="img/icon-tea.png"> Chat, hangout, talk!</h2>
 			<p>We have the very  beautiful Centre Lajeunesse at our disposal. If you are ever tired of sessions, we will have communal spaces that you can make your own to spend some quality time with your fellow participants, talk, share or even show off a demo of your game!</p>		
@@ -178,8 +178,9 @@
 		<div class="hr" style="background-image:url('img/hr.png');"></div>
 	</section>
 	
-	<footer id="menu-partners"><a name="menu-partners"></a>
-		<h3>In collaboration with / En collaboration avec</h3>
+	<footer id="menu-partners">
+		<a name="menu-partners"></a>
+		<h3><br/>In collaboration / En collaboration</h3>
 		<span class="mrgs">
 			<a href="http://mrgs.ca" target="_blank"><img src="img/logo-mrgs.png"/> <img src="img/logo-mrgswords.png"/></a>
 		</span>
