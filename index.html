@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-CA">
+<html>
 <head>
 	<title>GameLoop Montréal</title>
 	
@@ -7,17 +7,31 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
-	
 	<meta property="og:title" content="GameLoop Montréal"/>
 	<meta property="og:image" content="http://gameloop.mrgs.ca/img/og-facebook.png"/>
 
 	<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
 	<link rel="stylesheet" href="mobile.css" media="screen and (max-width: 599px)" />
 	<link rel="stylesheet" href="style.css" media="screen and (min-width: 600px)"/>
-
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 	
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Droid+Sans|Roboto' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<script>
+	$(document).ready(function(){
+	   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) 
+	   { 
+		  $(".fr").hide();
+
+		  $("#language").click(function(){
+			  $(".fr").toggle();
+			  $(".en").toggle();
+		  });
+		};
+	});
+	</script>
 </head>
+
 <body>
 	<!--[if lt IE 8]>
 	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -25,6 +39,8 @@
 	
 	<header>
 		<div id="menu">
+			<span class="mobile"><a href="#" id="language"><span class="en">Lire en français</span><span class="fr">Read in english</a></button></span>
+			
 			<ul>
 				<li><a href="#menu-about">About / À propos</a></li>
 				<li>■ <a href="#menu-register">Register / Inscription</a></li>
@@ -53,26 +69,26 @@
 	<section id="byline menu-about" class="content">
 		<a name="menu-about"></a>
 		
-		<div class="col byline">
+		<div class="col byline en">
 			<p>We're a unique <strong>unconference</strong> open to all game developers, journalists, critics, academics, artists, & students. </p>
 			<p>Anyone involved in the culture of games is invited to share ideas and participate in discussions surrounding the discourse, practices, and development of games. </p>
 		</div>
 		
-		<div class="col byline">
+		<div class="col byline fr">
 			<p>Nous sommes une “<strong>anti-conférence</strong>” ouverte à tous développeurs, critiques, universitaires, artistes et étudiants oeuvrant dans le monde des jeux.</p>
 			<p>Toutes les personnes impliquées dans la culture des jeux sont  invitées à venir partager leurs  idées et à participer aux vastes discours et pratiques reliés à la création des jeux.</p>
 		</div>
 	</section>
 		
 	<section id="pitch" class="content">
-		<div class="col">
+		<div class="col en">
 			<h2 class="content-pitch"><img src="img/icon-doc.png"/> Pitch a session</h2>
 			<p>The beauty of GameLoop: the attendees make the event! We need all attendees to pitch sessions! Held in the past in the Boston and Philadelphia areas, GameLoop sessions have been about formalism, narrative design, dating simulators, monetization ethics, distributed version control, voice acting, mental health and self care, iPhone shaders, independent marketing, funding, publishing, Unity development, prototyping, alternative games, multiplayer, concept art, and much, much more.</p>
 			<p>At the start of the day, attendees propose session topics in the format of  group roundtable discussions, talks, or even workshops. All session topics are put up on a board. Every attendee will get stickers to vote on the sessions they'd like to see appear throughout the day. Right after, with a combination of popular vote and need to balance out the schedule, the organizers adopt each session and the agenda for the day is created!</p>
 			<p>Don't worry about it if you've never given a talk before. If you really want to talk about something, you can pitch the session and if enough people want to attend, everyone else can talk about it!</p>
 		</div>
 			
-		<div class="col">
+		<div class="col fr">
 			<h2 class="content-pitch"><img src="img/icon-doc.png"/> Proposer une session!</h2>
 			<p>La beauté de GameLoop: les participants créent l’évènement eux-même! Toutes les personnes sont invitées à proposer divers sujets de discussions liés au monde des jeux . Lors d’évènements semblables par le passé à Boston et Philadelphie, les sessions sont eux plusieurs divers sujets tels que le formalisme, ke design narratif, la monétisation éthique, la romance entre npcs, le prototypage rapide, la santé mentale, les méchaniques de monétisation, le marketing indépendent, la direction audio, et plus encore.</p>
 			<p>Au début de la journée, tous les participants sont invités à proposer divers sujets de discussions liés au monde des jeux . Toutes les sessions sont notées au fur à mesure et affichées sur un tableau. Par après, toutes les sessions proposés sont choisis par vote populaire, fait avec de jolies petits collants. Selon les choix des participants et les sujets intéressants, les organisateurs créent l’agenda officiel de la journée!</p>
@@ -81,12 +97,12 @@
 	</section>
 	
 	<section id="session" class="content">
-		<div class="col">
+		<div class="col en">
 			<h2 class="content-session"><img src="img/icon-talk.png"> Participate in a session</h2>
 			<p>All attendees can attend any session and just listen. But... at GameLoop we encourage you to speak up: ask questions and propose answers. We care about fostering dialogue. When you go to a session: talk! We want to hear from you and your experience!</p>
 		</div>
 		
-		<div class="col">
+		<div class="col fr">
 			<h2 class="content-session"><img src="img/icon-talk.png"> Participez! Discutez!</h2>
 			<p>Tous les participants peuvent aller à n’importe quelles session et écouter. Mais… à GameLoop nous vous encourageons à parler: poser des questions et suggérer des réponses. Nous voulons créer un dialogue. Lorsque vous allez à une session: faites vous entendre! Nous voulons savoir à propos de vous et vos expériences!</p>
 		</div>
@@ -94,12 +110,12 @@
 		
 	
 	<section id="hangout" class="content">
-		<div class="col">
+		<div class="col en">
 			<h2 class="content-talk"><img src="img/icon-tea.png"> Chat, hangout, talk!</h2>
 			<p>We have the very  beautiful Centre Lajeunesse at our disposal. If you are ever tired of sessions, we will have communal spaces that you can make your own to spend some quality time with your fellow participants, talk, share or even show off a demo of your game!</p>		
 		</div>
 		
-		<div class="col">
+		<div class="col fr">
 			<h2 class="content-talk"><img src="img/icon-tea.png"> Flâner, jaser, amusez-vous! </h2>
 			<p>Notre évènement se tiendra au chaleureux Centre Lajeunesse. Si vous êtes fatigués ou voulez faire autre chose que d’aller aux sessions, nous aurons des espaces communautaires pour vous permettre de relaxer, parler à d’autres participants, ou même présenter un de vos jeux ou peut importe ce qui vous tente.</p>
 		</div>
@@ -111,8 +127,8 @@
 	<section id="menu-register"><br/><br/><br/>
 		<h2 style="text-align:center">Register / Inscription</h2>
 		<div class="col">
-			<p>We're still finalizing ticket prices but as soon as registration opens up we can send you an email notification!</p>
-			<p>Nous sommes encore entrain d'ajuster le prix de nos billets. Dès l'inscription débutera, nous vous enverrons un courriel</p>
+			<p class="en">We're still finalizing ticket prices but as soon as registration opens up we can send you an email notification!</p>
+			<p class="fr">Nous sommes encore entrain d'ajuster le prix de nos billets. Dès l'inscription débutera, nous vous enverrons un courriel</p>
 		</div>
 		
 		<div class="col">			
@@ -129,14 +145,14 @@
 				<div id="mce-responses" class="clear">
 					<div class="response" id="mce-error-response" style="display:none"></div>
 					<div class="response" id="mce-success-response" style="display:none"></div>
-				</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				</div><!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 			
 				<div style="position: absolute; left: -5000px;"><input type="text" name="b_88c24b8205eb61c6e7ba8bef6_83628fd3c3" tabindex="-1" value=""></div>
 				<div class="clear"><input type="submit" value="OK!" name="Notify Me" id="mc-embedded-subscribe" class="button"></div>
 				</div>
 			</form>
 			</div>
-			<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+			<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));</script>
 			<!--End mc_embed_signup-->
 		</div>
 	
@@ -147,8 +163,8 @@
 	<section id="menu-contact"><br/><br/><br/>
 		<div class="col">
 			<h2>Contact / Contacter-nous</h2>
-			<p>GameLoop Montréal is a <a href="http://forum.mrgs.ca/t/slmr-politique-despace-securitaire-mrgs-safe-space-policy/27">safe-space</a> event. Our safe-space policy can be read online. By attending, you agree to abide by our policy.</p>
-			<p>GameLoop Montréal prend tous les moyens nécessaires pour offrir <a href="http://forum.mrgs.ca/t/slmr-politique-despace-securitaire-mrgs-safe-space-policy/27">un environnement sécuritaire</a> durant tous ses événements. En participant au GameLoop Montréal, vous accepter de respecter notre politique.</p>			
+			<p class="en">GameLoop Montréal is a <a href="http://forum.mrgs.ca/t/slmr-politique-despace-securitaire-mrgs-safe-space-policy/27">safe-space</a> event. Our safe-space policy can be read online. By attending, you agree to abide by our policy.</p>
+			<p class="fr">GameLoop Montréal prend tous les moyens nécessaires pour offrir <a href="http://forum.mrgs.ca/t/slmr-politique-despace-securitaire-mrgs-safe-space-policy/27">un environnement sécuritaire</a> durant tous ses événements. En participant au GameLoop Montréal, vous accepter de respecter notre politique.</p>			
 			<p><img src="img/icon-email.png">&nbsp;&nbsp;<a href="mailto:gameloopmtl@gmail.com">gameloopmtl@gmail.com</a><br/><img src="img/icon-twitter.png">&nbsp;&nbsp;<a href="http://twitter.com/gameloopmtl">@gameloopmtl</a></p>
 		</div>
 		
@@ -187,7 +203,7 @@
 		</span>
 		
 		
-		<h3><br/><br/>Partners / Partenaires</h3>
+		<h3><br/>Partners / Partenaires</h3>
 		<span class="gold">
 			<a href="http://www.autodesk.ca/" target="_blank"><img src="img/logo-autodesk.png"></a>
 		</span>

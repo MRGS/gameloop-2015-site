@@ -3,13 +3,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 
 /* --- GEN -------------------------------------------------------- */
+.mobile {
+	display:none}
+
 body {
 	background:#242833;
 	font-family:'Source sans pro', helvetica, arial, sans-serif;
 	font-size:1.2em;
 	color:#c0c0c0;}
 	
-a {
+a, a#language {
 	color:#41fff8;
 	text-decoration:none;}
 	
