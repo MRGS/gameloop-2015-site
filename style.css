@@ -86,8 +86,8 @@ div#menu a {
 	padding:0 15px}
 	
 div#menu a:hover {
-	background:#ddd;
-	color:#000}
+	background:#222;
+	color:#ff4ab0}
 
 /* fancy animation --- */
 @keyframes colorTransition {
