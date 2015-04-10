@@ -24,6 +24,12 @@ p a:hover, section a:hover {
 p a, section a {
 	border-bottom:1px solid #444}
 
+.slash {
+color:#666;
+font-size:0.6em;
+position:relative;
+display:inline;
+top:-3px}
 
 
 /* --- BANNER -------------------------------------------------------- */
@@ -104,7 +110,7 @@ div#menu a:hover {
     100%  {color: #fff;}
 }
 
-div#menu a.register {
+.register {
     -webkit-animation-name: colorTransition; /* Chrome, Safari, Opera */
     animation-name: colorTransition;
     -webkit-animation-iteration-count: infinite;
@@ -244,6 +250,9 @@ footer span {
 footer span img {
 	padding:10px}
 
+footer .slash {
+	color:#000;}
+	
 .mrgs img {
 	height:150px}
 	
