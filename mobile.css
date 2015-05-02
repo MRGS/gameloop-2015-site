@@ -117,9 +117,33 @@ h2 {
 .content-talk {
 	color:#08bafe}
 	
-
+	
+/* -- schedule */
+ul.schedule li {
+	padding:5px;
+	border-bottom:1px dotted #666699;
+	width:100%;
+	display:inline-block;
+	line-height:1.5em}
+	
+span.time {
+	float:left;
+	margin-right:10px;
+	font:0.6em courier;
+	width:45px;
+	color:#888;
+	float:left;
+	position:relative;
+	top:6px;
+	text-align:right;}
+	
+span.activity {
+	width:80%;
+	float:left}
+	
+	
 /* -- contact section */
-section#menu-register {
+section#menu-register, section#menu-schedule {
 	background:#32323e}
 
 span.organizer img {
