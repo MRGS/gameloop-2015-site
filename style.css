@@ -48,7 +48,7 @@ div#banner-centering {
 	min-height:450px;}
 	
 div#logo {
-	padding:7% 0;}
+	padding:7% 0}
 
 div#logo img {
 	width:70%;}
@@ -221,17 +221,17 @@ span.organizer {
 	
 #mc_embed_signup input[type=email] {
 	padding:5px;
-	border-radius:3px;
 	margin:10px 0;
 	width:400px !important;
 	background:#222;
 	border:1px solid #4e8381 !important;
 	color:#41fff8;
-	margin-bottom:10px;
-	display:inline}
+	margin-bottom:15px;
+	display:inline;
+	font-family:'courier new', monospace}
 	
 #mc_embed_signup input[type=submit] {
-	border-radius:5px;
+	border:0;
 	background:#41fff8;
 	box-shadow: 0 3px 0 #000;
 	text-transform:uppercase;
@@ -276,7 +276,7 @@ footer span img {
 	padding:10px}
 	
 .mrgs img {
-	height:150px}
+	height:120px}
 	
 .gold img {
 	height:80px;}
@@ -287,9 +287,9 @@ footer span img {
 .bronze img {
 	height:45px}
 
-.gold, .silver, .bronze, .mrgs {
+/*.gold, .silver, .bronze, .mrgs {
 	margin:10px 0;
-	display:block;}
+	display:block;}*/
 	
 section#credits {
 	background:#222;
