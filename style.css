@@ -163,6 +163,16 @@ h2 {
 .content-talk {
 	color:#08bafe}
 	
+ul.gen {
+	top:-15px;
+	position:relative;
+	margin-bottom:25px}
+
+ul.gen li {
+	padding:10px 0;
+	margin:0 0 0 50px;
+	list-style:circle;}
+
 /* -- schedule */
 ul.schedule li {
 	padding:5px;
@@ -250,9 +260,9 @@ span.organizer {
 	background:#2fd8d2}
 	
 #mc_embed_signup label {
-	text-transform:uppercase;
+	font-style:italic;
 	font-size:0.8em;
-	font-weight:bold;}
+	color:#e8e8e8}
 	
 	
 	
