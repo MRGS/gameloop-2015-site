@@ -289,7 +289,7 @@ footer span img {
 	height:120px}
 	
 .gold img {
-	height:80px;}
+	height:100px;}
 
 .silver img {
 	height:80px;}
@@ -297,9 +297,9 @@ footer span img {
 .bronze img {
 	height:45px}
 
-/*.gold, .silver, .bronze, .mrgs {
+.gold, .silver, .bronze, .mrgs {
 	margin:10px 0;
-	display:block;}*/
+	display:block;}
 	
 section#credits {
 	background:#222;
