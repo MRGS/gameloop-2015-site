@@ -290,11 +290,10 @@ footer span img {
 	height:120px}
 
 .gold img {
-	height:200px;}
+	height:300px;}
 
 .silver img {
-	height:100px;
-	max-width:300px}
+	max-height:150px;}
 
 .bronze img {
 	height:45px}
