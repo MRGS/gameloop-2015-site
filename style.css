@@ -286,19 +286,16 @@ h3 {
 footer span img {
 	padding:10px}
 
-.mrgs img {
-	height:120px}
-
 .gold img {
 	height:200px;}
 
-/*.silver img {
-	max-height:80px;} */
+.silver img {
+	height:80px;}
 
 .bronze img {
-	height:45px}
+	height:60px}
 
-.gold, .silver, .bronze, .mrgs {
+.gold, .silver, .bronze {
 	margin:10px 0;
 	display:block;}
 
