@@ -286,17 +286,17 @@ h3 {
 footer span img {
 	padding:10px}
 
-.gold img {
-	height:200px;
+.mrgs img {
+	height:120px}
 
- .mrgs img {
-	height:150px;}
+.gold img {
+	height:200px;}
 
 .silver img {
-	height:120px;}
+	max-height:150px}
 
 .bronze img {
-	height:90px}
+	height:100px}
 
 .gold, .silver, .bronze, .mrgs {
 	margin:10px 0;
