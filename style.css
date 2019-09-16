@@ -286,7 +286,7 @@ h3 {
 footer span img {
 	padding:10px}
 
-.gold img {
+.gold img, .mrgs img {
 	height:200px;}
 
 .silver img {
@@ -295,7 +295,7 @@ footer span img {
 .bronze img {
 	height:90px}
 
-.gold, .silver, .bronze {
+.gold, .silver, .bronze, .mrgs {
 	margin:10px 0;
 	display:block;}
 
