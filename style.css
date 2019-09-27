@@ -200,11 +200,26 @@ span.activity {
 	width:85%;
 	float:left}
 
-
-/* -- contact section */
-section#menu-register, section#menu-schedule, section#photos {
+section#menu-register, section#menu-schedule, section#flickr {
 	background:#32323e}
 
+/* -- photos */
+.flickr_badge_image {
+margin:0px;
+display:inline;}
+
+.flickr_badge_image {
+padding:0 10px;}
+
+.flickr_badge_wrapper a {
+border:0;}
+
+.flickr_badge_wrapper a:hover {
+border:1px solid #41fff8;
+background-color:none;}
+
+
+/* -- contact section */
 span.organizer img {
 	width:80px;
 	height:80px;
@@ -309,19 +324,3 @@ section#credits {
 	text-transform:uppercase;
 	padding:10px;
 	margin-top:50px;}
-
-
-
-.flickr_badge_image {
-	margin:0px;
-	display:inline;}
-
-.flickr_badge_image img {
-	padding:0 10px;}
-
-.flickr_badge_image a {
-	border:0;}
-
-.flickr_badge_image a:hover {
-	border:1px solid #41fff8;
-	background-color:none;}
