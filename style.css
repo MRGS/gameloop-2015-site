@@ -202,7 +202,7 @@ span.activity {
 
 
 /* -- contact section */
-section#menu-register, section#menu-schedule {
+section#menu-register, section#menu-schedule, section#photos {
 	background:#32323e}
 
 span.organizer img {
@@ -321,7 +321,7 @@ section#credits {
 
 .flickr_badge_image a {
 	border:0;}
-	
+
 .flickr_badge_image a:hover {
 	border:1px solid #41fff8;
 	background-color:none;}
